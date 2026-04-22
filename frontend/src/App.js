@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5003/api/items";
+ const API_URL = "https://practice1-production.up.railway.app/api/items";
 
 function App() {
   const [items, setItems] = useState([]);
